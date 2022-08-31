@@ -1,6 +1,4 @@
-def run():
-    word = input('write a word: ')
-
+def palidrome(word: str) -> bool:
     word = (
         word.lower()
         .replace(' ', '')
@@ -19,4 +17,5 @@ def run():
 
 
 if __name__ == '__main__':
-    run()
+    word = input('write a word: ')
+    palidrome(word)
